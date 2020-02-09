@@ -1,5 +1,5 @@
 {
-  "name": "marzipanuk/vue-auth",
+  "name": "@marzipanuk/vue-auth",
 
   "description": "Vue.js token based authentication plugin. Supports simple token based and Json Web Tokens (JWT) authentication.",
 
