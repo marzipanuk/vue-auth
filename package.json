@@ -26,7 +26,7 @@
   "licenses": "MIT, GPL",
   
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config ./build/webpack.config.js",
     "prepare": "npm run build" 
   },
 
