@@ -6,9 +6,13 @@ module.exports = (function () {
             cookie = name + '=' + value + '; Expires=' + expires + ';';
         
         if (domain !== 'localhost') {
-            cookie += ' Path=/; Domain=' + domain + ';secure';
+            cookie += ' Path=/; Domain=' + domain + ';';
         }
 
+        if (location.protocol === 'https:') {
+            cookie += 'secure';
+        }
+        
         document.cookie = cookie;
     }
 
