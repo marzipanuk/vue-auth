@@ -25,6 +25,10 @@
 
   "licenses": "MIT, GPL",
   
+  "scripts": {
+    "build": "webpack",
+    "prepare": "npm run build" 
+  },
 
   "devDependencies": {
     "babel-core": "6.25.0",
